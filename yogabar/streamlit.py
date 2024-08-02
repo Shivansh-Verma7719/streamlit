@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 # Load the Excel file
-df = pd.read_excel('yogabar.final.xlsx')
+df = pd.read_excel('./yogabar.final.xlsx')
 
 # Format Store IDs to avoid comma separation
 df['Store ID'] = df['Store ID'].astype(str)
